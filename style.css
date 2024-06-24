@@ -7,7 +7,7 @@ body{
     padding: 0%;
     height: 100%;
     width: 100%;
-    background: linear-gradient(rgba(232,453,23),rgba(45,346,65),rgb(32,645,776));
+    background: linear-gradient(rgba(10,39,58),rgba(83,133,133),rgb(238,238,238));
     background-repeat: no-repeat;
 }
 .container{
@@ -16,13 +16,13 @@ body{
 .wrapper{
     margin-left: auto;
     padding: 20px;
-    background: linear-gradient(rgb(68, 140, 144), rgb(170, 229, 232),rgba(255,255,255),rgb(170, 229, 232),rgb(170, 229, 232));
+    background-color: #ffff;
     display: flex;
     width: 300px;
     height: 100vh;
     flex-direction: column;
     justify-content: center;    
-}
+}   
 input, i, a, h1{
     margin: 10px auto 10px 10px;
 }
