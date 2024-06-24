@@ -16,14 +16,14 @@ body{
 .wrapper{
     margin-left: auto;
     padding: 20px;
-    background-color: #ffff;
+    background: linear-gradient(rgba(135,206,235),rgb(255, 255, 255),rgb(255, 255, 255),rgba(135,206,235));
     display: flex;
-    width: 300px;
+    width: 350px;
     height: 100vh;
     flex-direction: column;
     justify-content: center;    
 }   
-input, i, a, h1{
+input, i, a, h1{src: ;
     margin: 10px auto 10px 10px;
 }
 #buttonlogin{
