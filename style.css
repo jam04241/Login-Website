@@ -1,13 +1,15 @@
 *{
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     position: relative;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    position: inherit;
 }
 body{
     margin: 0%;
     padding: 0%;
     height: 100%;
     width: 100%;
-    background: linear-gradient(rgba(10,39,58),rgba(83,133,133),rgb(238,238,238));
+    background: linear-gradient(#003285,#2A629A,#FF7F3E,#FFDA78);
+    /*background: linear-gradient(rgba(10,39,58),rgba(83,133,133),rgb(238,238,238));*/
     background-repeat: no-repeat;
 }
 .container{
@@ -16,7 +18,7 @@ body{
 .wrapper{
     margin-left: auto;
     padding: 20px;
-    background: linear-gradient(rgba(83,133,133),rgba(233, 246, 251),rgb(255, 255, 255),rgb(233, 246, 251),rgba(83,133,133));
+    background: linear-gradient(rgba(83, 145, 237),rgb(155, 222, 249),rgba(233, 246, 251),rgb(155, 222, 249),rgba(83, 145, 237));
     display: flex;
     width: 350px;
     height: 100vh;
@@ -24,11 +26,30 @@ body{
     flex-direction: column;
     justify-content: center;    
 }   
-input, i, a, h1{
+.page-content{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    
+}
+.container .page-content , #page-text{
+    -webkit-text-stroke-width: 0.5px;
+    -webkit-text-stroke-color: white;
+    margin-top: 4%;
+    margin-left: 18%;
+    font-size: 100px;
+    /*background-color: white;*/
+    background: linear-gradient(#FFDA78,#FF7F3E,#2A629A,#003285);
+    color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
+    
+
+.container .wrrapper, #sign-in, i, a, input{
     margin: 10px auto 10px 10px;
 }
 #buttonlogin{
-    background-color: rgb(192, 192, 190);
+    background-color: rgb(158, 191, 240);
     margin: 10px auto 10px 0px;
     width: 100px;
     height: 50px;
@@ -36,6 +57,7 @@ input, i, a, h1{
     margin-bottom: 100px;
     border-style: none;
     justify-self: center;
+    transition: 0.3s;
 }
 #buttonlogin:hover{
     color: white;
@@ -47,7 +69,8 @@ input, i, a, h1{
      
 }
 #link{
-    color: rgba(83,133,133);
+    transition: 0.3s;
+    color: rgb(60, 137, 251);
     padding-top: 5px;
     border: 1px solid;  
     border-radius: 40%;
@@ -83,6 +106,7 @@ input, i, a, h1{
 }
 
 input{
+    font-size: 15px;
     background: transparent;
     justify-self: center;
     outline: 0;
